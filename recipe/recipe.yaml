@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "6.0"
+  version: "6.1"
   test_modules:
     - zope.annotation.tests.test_attributeannotations
     - zope.annotation.tests.test_configure
@@ -13,7 +13,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/z/zope.annotation/zope_annotation-${{ version }}.tar.gz
-  sha256: ad44c641811d4a9fdfebd3d6839840032b4b84c4c052cda6911febc981101e53
+  sha256: f1a317dafde5add7f95f3f030c66a33461454c34d810ed0e6aab0fc78d440616
 
 build:
   number: 0
